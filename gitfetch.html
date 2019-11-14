@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>git fetch</title>
+    </head>
+    <body>
+        <section>
+            <h2>Erklärung git fetch:</h2>
+            <p>Git fetch wird verwendet, um alle Daten aus einem Remote Repository herunterzuladen. Dabei werden die Informationen heruntergeladen, <br><br>welche in deinem lokalen Repository noch nicht vorhanden sind. 
+            Wurde ein Repository geklont, so werden die Informationen als Verweis auf <br><br> das Repository gesetzt (origin). 
+            Git fetch origin lädt also nur das herunter, was in deinem Repository noch nicht vorhanden ist.
+            Unter herunterladen <br><br> versteht man aber nicht das Zusammenführen von deinen eigenen lokalen Commits mit den neuen Informationen. Das wäre git merge. </p>
+            <p></p>
+            <h2>Einbinden der Informationen:</h2>
+            <p>Im Nachhinein muss dies eigenständig erledigt werden, es sei denn es wurde ein tracking branch aktiviert, dann funktioniert ebenfalls get pull. </p>
+        </section>
+        <figure>
+            <img src="gitfetch1.png" alt="Ein Bild bevor das Kommando git fetch ausgeführt wurde">
+            <figcaption>Bevor das Kommando git fetch ausgeführt wurde</figcaption>
+            <img src="gitfetch2.png" alt="Ein Bild nachdem das Kommando git fetch ausgeführt wurde">
+            <figcaption>Nachdem das Kommando git fetch ausgeführt wurde</figcaption>
+        </figure>
+    </body>
+</html>
