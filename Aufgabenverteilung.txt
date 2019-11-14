@@ -1,0 +1,16 @@
+Aufgabeverteilung Gruppenprojekt Git/GitHub
+Kommandos:
+Steffen: Git clone 
+Juliane: Git Push
+Milena: Git Pull
+Fabian: Git merge 
+Martin: Git fetch 
+Jonas: Git init 
+
+Website:
+Fabian: Index
+Milena: Impressum 
+Martin: 
+Steffen: Logo
+Jonas: CSS
+
