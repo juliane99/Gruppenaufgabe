@@ -78,7 +78,7 @@ body .element {
   transition: transform 100ms;
 }
 body .element:hover {
-  transform: scale(1.01);
+  transform: scale(1.011);
 }
 
 /*# sourceMappingURL=main.css.map */
