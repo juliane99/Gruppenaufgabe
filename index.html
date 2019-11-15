@@ -3,14 +3,20 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="Screenshots%20git/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <title>GIT Homepage</title>
   </head>
 
   <body>
-
+  <script>
+    AOS.init();
+  </script>
     <header>
 
       <nav>
+        <div class="logo"><img src="logo3.svg"></div>
         <ul>
          <li> <a href="xx">Startseite</a></li>
           <li><a href="xx">git-init</a></li>
@@ -24,14 +30,17 @@
       </nav>
 
     </header>
+    <div class="content">
 
-    <div class="Startseite">
       <h1>Git</h1>
+      <div class="element"data-aos="zoom-in-left">
       <h2>Was ist Git?</h2>
         <p>
           Git ist eine weltweit verbreitete, plattformunabhängige Open-Source Software und wurde im Jahr 2005 von unterschiedlichen Entwicklern erstellt. <br>
           Es wird auch als Source Code Management System bezeichnet und dient zur Versionsverwaltung von Dateien. Das Programm ermöglicht, dass mehrere Entwickler unabhängig von ihrem Aufenthaltsort gleichzeitig an einem Projekt arbeiten können. Eingesetzt wird es hauptsächlich in der Programmierung, denn die Versionskontrolle dient dazu, dass Änderungen protokolliert werden können und somit auch Zugriff auf ältere Projektstände gewährleistet ist.. Mit Hilfe von Git können somit Dateien überwacht, verändert und rückgängig gemacht werden.
         </p>
+      </div>
+      <div class="element"data-aos="zoom-in-right">
       <h2>Arbeiten mit Git</h2>
         <ol>
           <li>Repository (Projekt) wird erstellt</li>
@@ -46,8 +55,9 @@
         </ol>
       <p>Hier gelangen Sie zur offiziellen Website von GitHub <a href="https://github.com/">Hier Klicken!</a></p>
     </div>
+    </div>
   <footer>
-    <p>© Milena, Jule, Steffen, Jonas, Martin, Fabian</p>
+    <span>© Milena, Jule, Steffen, Jonas, Martin, Fabian</span>
   </footer>
 
   </body>

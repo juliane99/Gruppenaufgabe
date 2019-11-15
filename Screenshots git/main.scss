@@ -1,8 +1,10 @@
 /* FONT IMPORTED */
-
+$corp_blue : #1F6DBB;
+$corp_white: #f2f2f2;
+$corp_gray: #343434;
 /* Fira Sans */
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans");
-
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 #container {
   width: 100%;
   display: inline-block;
@@ -11,37 +13,80 @@
 /** HEADER */
 
 /** NAVIGATION BAR */
-nav {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  ul {
-    text-align: center;
-    list-style-type: none;
-    list-style-type: none;
-    margin: 0;
-    padding: 15px;
-    li {
-      display: inline;
-      font-family: "Fira Sans", sans-serif;
-      font-size: 17px;
-      a {
+body {
+  overflow-x: hidden;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  nav {
+    z-index: 9;
+    display:block ;
+    overflow: hidden;
+    background-color: $corp_white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 5px 7px $corp_gray;
+    .logo{
+      width: 100px;
+      float: left;
+    }
+    ul {
+
+      float: right;
+      text-align: center;
+      list-style-type: none;
+      list-style-type: none;
+      margin: 0;
+      padding: 30px;
+      height: auto;
+
+
+      li {
         display: inline;
         font-family: "Fira Sans", sans-serif;
         font-size: 17px;
-        color: #f2f2f2;
-        text-decoration: none;
-        padding: 14px;
-        &:hover {
-          background-color: #111;
+
+        a {
+          display: inline;
+          font-family: "Fira Sans", sans-serif;
+          font-size: 17px;
+          color: $corp_gray;
+          text-decoration: none;
+          padding: 14px;
+          border-radius: 25px;
+          -webkit-transition: background-color 500ms; /* For Safari 3.1 to 6.0 */
+          transition: background-color 500ms;
+
+          &:hover {
+            color: $corp_white;
+            background-color: $corp_blue;
+          }
         }
       }
     }
   }
-}
 
-.content {
-  text-align: center;
+  .content {
+    padding:100px;
+  }
+
+  footer {
+    span{
+      padding: 0px 40px 0px 40px;
+      color: $corp_white;
+    }
+    width: 100%;
+    padding: 30px;
+    background-color: $corp_gray;
+  }
+  .element{
+    padding: 20px;
+    margin: 30px;
+    border: #343434 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 100ms;
+  &:hover{
+    transform: scale(1.01);
+  }
+  }
 }
