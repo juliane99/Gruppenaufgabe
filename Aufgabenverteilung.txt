@@ -8,9 +8,10 @@ Martin: Git fetch
 Jonas: Git clone 
 
 Website:
+Juliane: Repository einrichten, Abbildungsverzeichnis 
 Fabian: Index
 Milena: Impressum 
-Martin: 
+Martin: Divs für die Websites
 Steffen: Logo
 Jonas: CSS
 
