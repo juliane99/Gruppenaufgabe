@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <meta charset="utf-8">
+    <title>GIT | CLONE</title>
+    <head/>
+<body>
+<script>
+    AOS.init();
+</script>
+<header>
+
+    <nav>
+        <div class="logo"><img src="logo3.svg"></div>
+        <ul>
+         <li> <a href=index.html>Startseite</a></li>
+          <li><a href=gitinit.html>git-init</a></li>
+          <li> <a href=gitpull.html>git-pull</a></li>
+          <li><a href=git.push.final.html>git-push</a></li>
+          <li><a href=merge.html>git-merge</a></li>
+          <li><a href=gitfetch.html>git-fetch</a></li>
+          <li><a href=git-clone.html>git-clone</a></li>
+          <li><a href=impressum.html>Impressum</a></li>
+        </ul>
+      </nav>
+
+</header>
+<div class="element" data-aos="zoom-in-left">
+
+    <h1>Command 'git clone'</h1>
+
+    <p>Der Befehl 'git clone' kopiert ein bereits existierendes Repository, um es lokal bearbeiten zu können. </p>
+</div>
+
+<div class="element" data-aos="zoom-in-right">
+    <h2>Verwendung</h2>
+    <p>Lokales Repository klonen:</p>
+    <span class="code"><span class="red">git clone</span> < Pfad - zum - Repository > [ Name des Verzeichnisses (optional) ]</span><br><br>
+    <p>Server Repository klonen:</p>
+    <span class="code"><span class="red">git clone</span> < Server - Name | url >: < Pfad - zum - Repo >
+[ Name des Verzeichnisses (optional) ]</span><br>
+    <p>Beispiel:</p>
+    <span class="code"><span class="red">$ git clone</span> git://github.com/juliane99/Gruppenaufgabe.git coolesVerzeichnis </span>
+</div>
+
+<div class="element" data-aos="zoom-in-left">
+    <h2>Was macht git clone genau?</h2>
+    <p>
+        Auf das Beispiel bezogen, legt Git ein neues Verzeichnis namens "coolesVerzeichnis" an und kopiert alles aus dem Repository "Gruppenaufgabe" von juliane99 in dieses hinein. Wäre "coolesVerzeichnis" nicht angegeben, würde Git automatisch ein Verzeichnis namens "Gruppenaufgabe" erstellen.<br>
+        Weitergehend wird zusätzlich eine nicht sichtbare Datei erstellt, diese zeigt auf, dass es sich hierbei um ein mit Git verknüpftes Verzeichnis handelt. Des Weiteren speichert dieses Git relevante Details ab.
+    </p>
+
+</div></div>
+<footer>
+    <span>© Milena, Jule, Steffen, Jonas, Martin, Fabian</span>
+</footer>
+
+</body>

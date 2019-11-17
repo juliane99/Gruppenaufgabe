@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>git fetch</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="main.scss">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </head>
+    <body>
+
+        <script>
+            AOS.init();
+        </script>
+
+        <header>
+            <nav>
+        <div class="logo"><img src="logo3.svg"></div>
+        <ul>
+         <li> <a href=index.html>Startseite</a></li>
+          <li><a href=gitinit.html>git-init</a></li>
+          <li> <a href=gitpull.html>git-pull</a></li>
+          <li><a href=git.push.final.html>git-push</a></li>
+          <li><a href=merge.html>git-merge</a></li>
+          <li><a href=gitfetch.html>git-fetch</a></li>
+          <li><a href=git-clone.html>git-clone</a></li>
+          <li><a href=impressum.html>Impressum</a></li>
+        </ul>
+      </nav>
+        </header>
+
+            <div class="content">
+
+            <div class="element"data-aos="zoom-in-left">
+            <h2>Erklärung git fetch:</h2>
+            <p>Git fetch wird verwendet, um alle Daten aus einem Remote Repository herunterzuladen. Dabei werden die Informationen heruntergeladen, <br><br>welche in deinem lokalen Repository noch nicht vorhanden sind. 
+            Wurde ein Repository geklont, so werden die Informationen als Verweis auf <br><br> das Repository gesetzt (origin). 
+            Git fetch origin lädt also nur das herunter, was in deinem Repository noch nicht vorhanden ist.
+            Unter herunterladen <br><br> versteht man aber nicht das Zusammenführen von deinem eigenen lokalen Commits mit den neuen Informationen. Das wäre git merge. </p>
+            <p></p>
+            </div>
+            
+            <div class="element"data-aos="zoom-in-right">
+            <h2>Einbinden der Informationen:</h2>
+            <p>Im Nachhinein muss dies eigenständig erledigt werden, es sei denn, es wurde ein tracking branch aktiviert, dann funktioniert ebenfalls get pull. </p>
+            </div>
+       
+            <div class="element">
+            <figure>
+                <img src="gitfetch1.png" alt="Ein Bild bevor das Kommando git fetch ausgeführt wurde">
+                <figcaption><strong>Bevor das Kommando git fetch ausgeführt wurde</strong></figcaption>
+                <p></p>
+                <img src="gitfetch2.png" alt="Ein Bild nachdem das Kommando git fetch ausgeführt wurde">
+                <figcaption><strong>Nachdem das Kommando git fetch ausgeführt wurde</strong></figcaption>
+            </figure>
+
+            </div>
+
+            </div>
+        <footer>
+            <span>© Milena, Jule, Steffen, Jonas, Martin, Fabian</span>
+        </footer>
+        
+    </body>
+</html>
