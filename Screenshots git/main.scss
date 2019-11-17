@@ -5,6 +5,7 @@ $corp_gray: #343434;
 /* Fira Sans */
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans");
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 #container {
   width: 100%;
   display: inline-block;
@@ -32,6 +33,7 @@ body {
     .logo{
       width: 100px;
       float: left;
+      margin-left: 50px;
     }
     ul {
 
@@ -91,5 +93,12 @@ body {
   &:hover{
     transform: scale(1.011);
   }
+  }
+  .code{
+    font-family: 'Source Code Pro', monospace;
+    color: black;
+    .red{
+      color: darkred;
+    }
   }
 }

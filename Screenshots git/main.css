@@ -2,6 +2,7 @@
 /* Fira Sans */
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans");
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap");
 #container {
   width: 100%;
   display: inline-block;
@@ -30,6 +31,7 @@ body nav {
 body nav .logo {
   width: 100px;
   float: left;
+  margin-left: 50px;
 }
 body nav ul {
   float: right;
@@ -82,6 +84,13 @@ body .element {
 }
 body .element:hover {
   transform: scale(1.011);
+}
+body .code {
+  font-family: "Source Code Pro", monospace;
+  color: black;
+}
+body .code .red {
+  color: darkred;
 }
 
 /*# sourceMappingURL=main.css.map */
