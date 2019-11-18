@@ -64,7 +64,7 @@ body nav ul li a:hover {
   background-color: #1F6DBB;
 }
 body .content {
-  padding: 100px;
+  padding: 0 100px;
 }
 body footer {
   width: 100%;

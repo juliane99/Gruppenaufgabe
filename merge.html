@@ -9,6 +9,9 @@
   </head>
 
   <body>
+  <script>
+      AOS.init();
+  </script>
     <header>
 
        <nav>
@@ -28,7 +31,7 @@
     </header>
 
     <section class="git merge">
-<div class="element">
+<div class="element" data-aos="zoom-in-left">
   <div class="Allgemeines">
     <h1>Git Merge</h1>
       <p>Merging ist in Git der Weg, der für das Zusammenführen von einzelnen Abzweigungen zuständig ist. Mit dem Befehl <em>git merge</em> können unterschiedliche Projektstände, die sich möglicherweise in erfolgten Änderungen überschneiden, ordentlich in den aktiven Branch zurück integriert werden. Am einfachsten funktioniert der <em>git merge</em>, wenn sich die Änderungen der verschiedenen Entwicklungszweige nicht überschneiden. Sollte das Gegenteil der Fall sein, wird der aktuelle Entwicklungsstand des Hauptbranches in den zu mergenden Branch überführt. Anschließend erfolgt mit einer Git-Commit-Message die Verschmelzung der beiden Zweige ineinander.
@@ -36,7 +39,7 @@
   </div>
 </div>
 
-    <div class="element">
+    <div class="element" data-aos="zoom-in-right">
       <div class="Vor/Nachteile">
         <h3>Vorteile</h3>
           <ul>
@@ -53,20 +56,20 @@
     </div>
 
 
-        <div class="element">
+        <div class="element" data-aos="zoom-in-left">
         <h2>Verwendung</h2>
           <p>Zuerst fügt man einen Master-Zweig mit den Befehlen <em>git checkout</em> und <em>git merge</em> in den ausgewählten Zweig ein. Jetzt wird ein neuer Merge-Commit im ausgewählten Zweig erstellt, der die Historie beider Zweige beinhaltet.</p>
         </div>
 
-        <div class="element">
+        <div class="element" data-aos="zoom-in-right">
           <h2>Anwendungsbeispiel</h2>
             <p>Wir wollen <strong>bugFix (C2)</strong> mit dem <strong>master (C4)</strong> zusammenführen:</p>
               <p>1. Schritt: Den Branch bugFix in Master integrieren mit <em>git merge bugFix</em></p>
-                <img src="schritt1.png" alt="Schritt1">
+                <img src="Screenshots%20git/schritt1.png" alt="Schritt1">
               <p>2.	Schritt: Den Zweig bugFix anwählen mit <em>git checkout bugFix</em></p>
-                <img src="schritt2.png" alt="Schritt2">
+                <img src="Screenshots%20git/schritt2.png" alt="Schritt2">
               <p>3.	Schritt: bugFix und Master zusammenführen mit <em>git merge master<em></p>
-                <img src="schritt3.png" alt="Schritt3">
+                <img src="Screenshots%20git/schritt3.png" alt="Schritt3">
         </div>
 
     </section>
