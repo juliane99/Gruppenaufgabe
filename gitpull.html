@@ -12,7 +12,9 @@
 	</head>
 
 	<body>
-
+	<script>
+		AOS.init();
+	</script>
 		<header>
 			 <nav>
         <div class="logo"><img src="logo3.svg"></div>
@@ -29,33 +31,33 @@
       </nav>
 		</header>
 
-		<section>
-			<div class="element">
+		<div class="content">
+			<div class="element" data-aos="zoom-in-right">
 
-				<h1>Kommando Git pull</h1>
+				<h1>git-pull</h1>
 
 					<p>Mit dem Kommando git pull wird das lokale Repository mit den neusten Änderungen aktualisiert, <br> Daten werden automatisch heruntergeladen und der externe Branch wird gleichzeitig mit dem aktuellen Branch zusammengeführt.<br> Dieses Kommando sollte vor Beginn jeder Arbeit ausgeführt werden, um sicher zu gehen, dass die lokale Code-Version die aktuellste ist. 
 					</p>
 			</div>
 
-			<div class="element">
+			<div class="element" data-aos="zoom-in-left">
 				<figure>
-						<img src="git_pull_1.png" alt="ohne Git pull">
+						<img src="Abbildungsverzeichnis/git_pull_1.png" alt="ohne Git pull">
 						<figcaption>Vor der Verwendung von git pull</figcaption>
 				</figure>
 
 				<figure>
-						<img src="git_pull_2.png" alt="mit Git pull">
+						<img src="Abbildungsverzeichnis/git_pull_2.png" alt="mit Git pull">
 					<figcaption>Nach der Verwendung von git pull</figcaption>
 				</figure>
 			</div>
 
-			<div class="element">
+			<div class="element" data-aos="zoom-in-right">
 					<br> <p>Der Befehl git pull ist eigentlich eine Kombination aus den zwei weiteren Befehlen git fetch und git merge. Zuallererst führt git pull einen git fetch aus. Sobald die Inhalte heruntergeladen sind, tritt git pull in einen merge Workflow ein.</p>
 
 			</div>
 
-		</section>
+		</div>
 
 		<footer>
 			<span>© Milena, Jule, Steffen, Jonas, Martin, Fabian</span>
