@@ -15,6 +15,11 @@ $corp_gray: #343434;
 
 /** NAVIGATION BAR */
 body {
+  figure {
+    img {
+      width: 50%;
+    }
+  }
   overflow-x: hidden;
   margin: 0px;
   font-family: 'Roboto', sans-serif;

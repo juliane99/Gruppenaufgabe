@@ -15,6 +15,9 @@ body {
   margin: 0px;
   font-family: "Roboto", sans-serif;
 }
+body figure img {
+  width: 50%;
+}
 body header {
   margin-top: 200px;
 }
