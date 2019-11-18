@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>git merge</title>
+  </head>
+
+  <body>
+    <header>
+
+       <nav>
+        <div class="logo"><img src="logo3.svg"></div>
+        <ul>
+         <li> <a href=index.html>Startseite</a></li>
+          <li><a href=gitinit.html>git-init</a></li>
+          <li> <a href=gitpull.html>git-pull</a></li>
+          <li><a href=git.push.final.html>git-push</a></li>
+          <li><a href=merge.html>git-merge</a></li>
+          <li><a href=gitfetch.html>git-fetch</a></li>
+          <li><a href=git-clone.html>git-clone</a></li>
+          <li><a href=impressum.html>Impressum</a></li>
+        </ul>
+      </nav>
+
+    </header>
+    <div class="content">
+
+<div class="element">
+
+    <h1>git-merge</h1>
+      <p>Merging ist in Git der Weg, der für das Zusammenführen von einzelnen Abzweigungen zuständig ist. Mit dem Befehl <em>git merge</em> können unterschiedliche Projektstände, die sich möglicherweise in erfolgten Änderungen überschneiden, ordentlich in den aktiven Branch zurück integriert werden. Am einfachsten funktioniert der <em>git merge</em>, wenn sich die Änderungen der verschiedenen Entwicklungszweige nicht überschneiden. Sollte das Gegenteil der Fall sein, wird der aktuelle Entwicklungsstand des Hauptbranches in den zu mergenden Branch überführt. Anschließend erfolgt mit einer Git-Commit-Message die Verschmelzung der beiden Zweige ineinander.
+      </p>
+
+</div>
+
+    <div class="element">
+      <div class="Vor/Nachteile">
+        <h2>Vorteile</h2>
+          <ul>
+            <li>vollständige Entwicklungshistorie und chronologische Reihenfolge werden geschützt</li>
+            <li>selbst das gleichzeitige Arbeiten an derselben Code-Stelle kann erfolgen, da git-merge das Zusammenführen beider Branches übersichtlich gestaltet</li>
+          </ul>
+        <h2>Nachteile</h2>
+        <ul>
+          <li>Beschädigung der Commit-Historie durch viele Merge-Commits</li>
+          <li>Gefahr, dass durch das Auswählen der Änderungen eines Branches andere Änderungen des anderen Branches ausversehen nicht für den Merge ausgewählt werden</li>
+          <li>versehentlich wird der Merge ausgehend vom falschen Branch durchgeführt (Ausgangsbranch wird vertauscht)</li>
+        </ul>
+      </div>
+    </div>
+
+
+        <div class="element">
+        <h2>Verwendung</h2>
+          <p>Zuerst fügt man einen Master-Zweig mit den Befehlen <em>git checkout</em> und <em>git merge</em> in den ausgewählten Zweig ein. Jetzt wird ein neuer Merge-Commit im ausgewählten Zweig erstellt, der die Historie beider Zweige beinhaltet.</p>
+        </div>
+
+        <div class="element">
+          <h2>Anwendungsbeispiel</h2>
+            <p>Wir wollen <strong>bugFix (C2)</strong> mit dem <strong>master (C4)</strong> zusammenführen:</p>
+              <p>1. Schritt: Den Branch bugFix in Master integrieren mit <em>git merge bugFix</em></p>
+                <img src="Abbildungsverzeichnis/schritt1.png" alt="Schritt1">
+              <p>2.	Schritt: Den Zweig bugFix anwählen mit <em>git checkout bugFix</em></p>
+                <img src="Abbildungsverzeichnis/schritt2.png" alt="Schritt2">
+              <p>3.	Schritt: bugFix und Master zusammenführen mit <em>git merge master<em></p>
+                <img src="Abbildungsverzeichnis/schritt3.png" alt="Schritt3">
+        </div>
+
+
+    </div>
+    <footer>
+        <span>© Milena, Jule, Steffen, Jonas, Martin, Fabian</span>
+    </footer>
+
+  </body>
+
+</html>
